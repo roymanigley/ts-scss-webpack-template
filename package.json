@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "scripts": {
+        "tsc": "tsc",
+        "tscw": "tsc --watch",
+        "wp": "webpack",
+        "wpw": "webpack --watch",
+        "serve": "http-server build",
+        "start": "npm run wpw & npm run serve"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "css-loader": "^5.0.1",
+        "extract-loader": "^5.1.0",
+        "file-loader": "^6.2.0",
+        "node-sass": "^5.0.0",
+        "postcss-loader": "^4.1.0",
+        "sass-loader": "^10.1.0",
+        "copy-webpack-plugin": "^5.1.1",
+        "http-server": "^0.12.3",
+        "ts-loader": "^7.0.0",
+        "typescript": "^3.8.3",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    }
+}
